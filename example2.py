@@ -26,7 +26,7 @@ class Person:
         return self._place_of_birth
     
     def talk(self):
-        return f"Hi, my name is {self._name} and I was born in {self._place_of_birth}."
+        return f"Hi, my name is {self.name} and I was born in {self.place_of_birth}."
     
 # Creating instances
 aqil = Person("Aqil Hussain", "01/01/2000", "Manchester")
