@@ -7,7 +7,7 @@ class ShoppingList():
 
     def get_num_items(self):
         return len(self._items)
-    
+      
     @property
     def list_of_items(self):
         all_items = []
